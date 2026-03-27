@@ -1,3 +1,3 @@
-var isConfirm = confirm('message');
-
-console.log(isConfirm);
+var fristName = 'Nguyen';
+var lastName = 'Khoa'
+console.log(`toi la: ${fristName} ${lastName}`)

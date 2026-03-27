@@ -1,3 +1,2 @@
-var fristName = 'Nguyen';
-var lastName = 'Khoa'
-console.log(`toi la: ${fristName} ${lastName}`)
+var age = 18
+var pi = 3.14

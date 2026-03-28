@@ -1,2 +1,2 @@
-var age = 18
-var pi = 3.14
+var languages = ['javacript','javacript','javacript']
+console.log(languages)

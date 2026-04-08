@@ -1,42 +1,11 @@
-var courses = [
-    {
-        id: 1,
-        name: 'javascript',
-        coin: 0
-    },
-    {
-        id: 2,
-        name: 'python',
-        coin: 0
-    },
-    {
-        id: 3,
-        name: 'ruby',
-        coin: 0
-    },
-    {
-        id: 4,
-        name: 'php',
-        coin: 0
-    },
-    {
-        id: 5,
-        name: 'java',
-        coin: 0
-    }
-]
-
-function courseHandler(course, index){
-    return {
-        id: course.id,
-        name: `Khóa học: ${course.name}`,
-        coin: course.coin,
-        coinText: `Giá: ${course.coin}`,
-        index: index
-    }
+function User(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.getName = function() {
+        return `${this.firstName} ${this.lastName}`;
+    };
 }
 
-
-var newCourses = courses.map(courseHandler)
-
-console.log(newCourses)
+var author = new User('Huy', 'Nguyen');
+console.log(author.getName()); // "Huy Nguyen"
+console.log(author);
